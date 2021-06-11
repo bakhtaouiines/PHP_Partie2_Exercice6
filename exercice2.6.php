@@ -10,14 +10,14 @@
     <h1>Exercice 6 Partie 2 : Les conditions PHP</h1>
     <p>
         <?php
-        $age = "19";
-        if ($age >= "18")
+        $age = 19;
+        if ($age >= 18)
         {
-            echo "Tu es majeur";
+            echo 'Tu es majeur';
         }
         else
         {
-            echo "Tu n'es pas majeur";
+            echo 'Tu n\'es pas majeur';
         }
         ?>
     </p>
